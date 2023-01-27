@@ -53,7 +53,19 @@ yarn add  pm2 -g
 ```
 
 ```
-pm2 start src/server.js
+./node_modules/.bin/pm2 start src/server.js
+
+```
+
+```
+./node_modules/.bin/pm2 status
+
+```
+
+## Enable pm2 at boot level
+```
+
+./node_modules/.bin/pm2 startup
 
 ```
 
