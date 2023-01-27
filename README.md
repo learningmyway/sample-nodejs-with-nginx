@@ -76,7 +76,7 @@ sudo yum clean metadata
 ```
 sudo yum -y install nginx
 ```
-
+## Update /etc/nginx/nginx.conf and copy paste the content fron nginx.conf file in this repo
 ```
     proxy_set_header Host $host;
     proxy_set_header X-Real-IP $remote_addr;
@@ -88,3 +88,10 @@ nginx -t
 
 ```
 
+```
+systemctl status nginx
+```
+
+```
+systemctl status nginx
+```
