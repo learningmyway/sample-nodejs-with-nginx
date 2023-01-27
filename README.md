@@ -1,6 +1,6 @@
 # Setting up node js server with Nginx Reverse Proxy
 
-Steps
+**Steps**
 1. Run EC2 Instance
 2. Setup Security Group
 3. Install node & yarn
@@ -8,6 +8,14 @@ Steps
 5. Install nginx
 6. Setup nginx 
 7. Voila!!! your express server is live.
+
+**Pre Requisite for this Activity**
+1. Amazon Account as we will be deploying the app using Amazon EC2 Service
+
+**Out-fo-Scope**
+1. Domain Registration using AWS Router53 
+2. Configuring NS/Hosted zones
+
 
 # Change to root user
 ```
