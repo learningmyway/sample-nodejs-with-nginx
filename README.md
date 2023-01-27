@@ -29,7 +29,7 @@ yum update -y
 ```
 # Install Git
 ```
-yum install git -y
+yum install -y git
 
 ```
 # Clone the Repo
