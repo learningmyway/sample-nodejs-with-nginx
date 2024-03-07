@@ -130,4 +130,4 @@ systemctl start nginx
 systemctl start nginx
 ```
 
-Reference: [Important NginX Doc](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
+**Reference**: [Important NginX Doc](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
