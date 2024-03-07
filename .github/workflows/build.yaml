@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  - name: Checkout
+        uses: actions/checkout@v4
+  - name: Executing Command
+    run: |
+      bash print_sha.sh ${{ github.event.pull_request.head.sha }}
