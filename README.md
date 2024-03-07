@@ -102,6 +102,7 @@ sudo amazon-linux-extras enable nginx1
 sudo yum clean metadata
 
 ```
+# More Commands
 
 ```
 sudo yum -y install nginx
@@ -130,4 +131,4 @@ systemctl start nginx
 systemctl start nginx
 ```
 
-Reference: [Important NginX Doc](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
+**Reference**: [Important NginX Doc](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
