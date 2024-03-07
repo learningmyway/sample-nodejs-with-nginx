@@ -13,3 +13,4 @@ jobs:
     - name: Executing Command
       run: |
         bash scripts/print_sha.sh ${{ github.event.pull_request.head.sha }}
+        bash scripts/print_sha.sh ${{ github.sha }}
